@@ -1,0 +1,29 @@
+.show-modal {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.75rem 3.5rem;
+  margin: 23.9rem 48rem;
+  border: none;
+  background-color: #ffddd1;
+  color: #444;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.show-modal:hover,
+.show-modal:active {
+  color: inherit;
+  background-color: #741188;
+  color: #fff;
+}
+
+.hero-image {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/382/281/non_2x/flat-education-background-free-vector.jpg");
+  height: 100%;
+  background-color: #fefafe;
+  background-position: 10% 65%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+}

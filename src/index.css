@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/382/281/non_2x/flat-education-background-free-vector.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-gray-100: #f4f3f1;
+  --color-gray-200: #dddbd8;
+  --color-gray-300: #ccc9c6;
+  --color-gray-400: #aeaba7;
+  --color-gray-500: #8a8784;
+  --color-gray-600: #656360;
+  --color-gray-700: #4b4a47;
+  --color-gray-800: #31302e;
+  --color-gray-900: #1f1d1b;
+
+  --color-primary-100: #fcf3e1;
+  --color-primary-200: #fceccd;
+  --color-primary-300: #fae1af;
+  --color-primary-400: #fbd997;
+  --color-primary-500: #ffd37c;
+  --color-primary-600: #f9c762;
+  --color-primary-700: #fbc14d;
+  --color-primary-800: #fab833;
+  --color-primary-900: #f6ad1b;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 15rem;
+  text-align: center;
+  font-size: 22pt;
+}
+
+.alert {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 9999;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 4.6rem 15rem;
+  -webkit-box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(9px);
+}
+.alert--success {
+  background-color: #20bf6b;
+}
+.alert--error {
+  background-color: #eb4d4b;
+}
